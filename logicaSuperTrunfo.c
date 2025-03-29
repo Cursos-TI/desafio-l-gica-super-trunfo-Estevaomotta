@@ -15,7 +15,7 @@ int main() {
     float area1 ,area2;
     float pib1 ,pib2;
     int pontos1 ,pontos2;
-    
+    float populacao = 500000000000000;
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
@@ -113,9 +113,9 @@ int main() {
     //     printf("Cidade 2 tem maior população.\n");
     // }
     if (populacao1 > populacao2) {
-             printf("Cidade 1 tem maior população.\n");
+             printf("Cidade 1 tem maior população. \n Carta 1 é a vencedora. Parabens!! \n");
          } else {
-             printf("Cidade 2 tem maior população.\n");
+             printf("Cidade 2 tem maior população. \n Carta 2 é a vencedora. Parabens!! \n");
          }
     
     // Exibição dos Resultados:
@@ -124,7 +124,7 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-    printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    
 
     return 0;
 }
